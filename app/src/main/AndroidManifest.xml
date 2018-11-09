@@ -22,7 +22,12 @@
         <activity android:name=".addmisssion.Application" />
         <activity android:name=".addmisssion.GeneralQualifications" />
         <activity android:name=".Contact" />
-        <activity android:name=".Study"></activity>
+        <activity android:name=".Study" />
+        <activity android:name=".Course" />
+        <activity android:name=".People" />
+        <activity android:name=".course.GeneralCourse" />
+        <activity android:name=".course.CommunicationCourse" />
+        <activity android:name=".course.PowerCourse"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".People">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/title" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/people" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                android:id="@+id/kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ktchau" />
+
+                <TextView
+                    android:id="@+id/ktname"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Prof. K.T. Chau" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ktinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="B.Sc. (Eng.), M.Phil., Ph.D. H.K.; C.Eng., F.I.E.E.E., F.I.E.T., F.H.K.I.E.\nEmail: ktchau@eee.hku.hk
+    Web:https://www.eee.hku.hk/~ktchau\nTel.: 2859-2704\nOffice: CB 709" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir Professor K.T. Chau received his B.Sc.(Eng.) degree with First Class Honours, M.Phil. degree, and Ph.D. degree all in Electrical and Electronic Engineering from The University of Hong Kong. He joined the alma mater in 1995, and has served as Director of the International Research Centre for Electric Vehicles, and Associate Dean of Engineering (Teaching and Learning – Taught Postgraduate). Currently, he serves as Professor and Head of Department in the Department of Electrical and Electronic Engineering.\n" />
+
+        <TextView
+            android:id="@+id/resi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Research Interests" />
+
+        <TextView
+            android:id="@+id/rescontext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electric Vehicle Technologies, Renewable Energy Systems, Machines and Drives, Power Electronics"/>
+
+        <Button
+            android:id="@+id/button_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:background="@null"
+            android:text="MORE academic staff" />
+
+    </LinearLayout>
+</ScrollView>
