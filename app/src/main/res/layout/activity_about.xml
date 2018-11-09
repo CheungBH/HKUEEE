@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+
+    <include layout="@layout/title" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about" />
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="ABOUT\nThe Department of Electrical and Electronic Engineering (EEE) was established in late fifties as a major department in the Faculty of Engineering at the University of Hong Kong.\nIts graduates served the society since 1961 and have been making tremendous impact to the well being and development of Hong Kong in her infancy years.
+        \nOver the years, power systems, electronic, computers\n\n\n" />
+
+    <TextView
+        android:id="@+id/our_mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Our mission\n
+The mission of the Department of Electrical and Electronic Engineering is to achieve excellence in teaching, research and professional services in electrical, electronic and computer technologies and allied sciences." />
+
+
+
+</LinearLayout>

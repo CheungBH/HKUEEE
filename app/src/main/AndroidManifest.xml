@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondPage"></activity>
+        <activity android:name=".SecondPage" />
+        <activity android:name=".About" />
+        <activity android:name=".Addmission" />
+        <activity android:name=".addmisssion.Application" />
+        <activity android:name=".addmisssion.GeneralQualifications" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Study"></activity>
     </application>
 
 </manifest>

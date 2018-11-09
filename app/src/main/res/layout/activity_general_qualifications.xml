@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".addmisssion.GeneralQualifications">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/title" />
+
+        <TextView
+            android:id="@+id/entrance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="1. Entrance Requirements\n
+    •	(a) comply with the General Regulations;\n
+    •	(b) comply with the Regulations for Taught Postgraduate Curricula;\n
+    •	(c) hold (i) a Bachelor’s degree of this University in a relevant field (note 1); or\n
+    (ii) a relevant qualification of equivalent standard from this University or from another university or comparable institution accepted for this purpose;\n
+    •	(d) satisfy the examiners in a qualifying examination if required; and\n
+    •	(e) for a candidate who is seeking admission on the basis of a qualification from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English, shall satisfy the University English language requirement applicable to high degrees as prescribed under General Regulation G2(b).\n
+    " />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="2. English Language Requirement\n
+    •	a score of 550 or above (paper-based test), or 80 or above (internet-based) in the Test of English as a Foreign Language (TOEFL) (note 2); or\n
+    •	a minimum overall band of 6 with no subtest lower than 5.5 in the International English Language Testing System (IELTS); or\n
+    •	Grade C or above in the Overseas General Certificate of Education (GCE); or\n
+    •	Grade C or above in the International General Certificate of Secondary Education (IGCSE); or\n
+    •	Grade C or above in the Cambridge Test of Proficiency in English Language;\n
+    " />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="3. Concurrent Registration\n
+    According to the General Regulation G6 of the University, concurrent registration by a student for another post-secondary qualification either at this University or at another institution is prohibited, unless approval of the Senate has been obtained in advance. A breach of this regulation in Hong Kong or elsewhere may result in discontinuation of studies at this University. For more details, please click(http://engg.hku.hk/faculty_msc/faq.pdf) here.
+    " />
+
+    </LinearLayout>
+
+</ScrollView>

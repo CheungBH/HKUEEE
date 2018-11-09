@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Study">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="406dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/study" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                 Taught Postgraduate" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The missions of the Department are to produce the highest quality of graduates to satisfy the society needs, to advance the bounds of scholarship and to conduct leading edge research. The goals of the Department are to strive for excellence in teaching, research and in professional service. The philosophy of education in the Department is to provide you with a life-long learning capability. The curricular for different programmes, although emphasis has been placed on different aspects of electrical and electronic engineering, do have a common thread in providing you with a fundamental understanding as well as an up-to-date grasp of cutting edge advanced technologies of this important field." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="------------------------------------------------------------------Master of Science in Electrical and Electronic Engineering (EEE)" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The field of Electrical and Electronic Engineering encompasses computer systems, microelectronics, opto-electronics and lasers, wireless communications and networking, multimedia signal processing, conversion of energy, control systems and many others. It is the technology that is driving the current transformation of the society into the information era. It is the fastest growing and the most challenging technology all over the world. For more information of EEE programme" />
+
+        <Button
+            android:id="@+id/more_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More" />
+
+
+    </LinearLayout>
+</ScrollView>

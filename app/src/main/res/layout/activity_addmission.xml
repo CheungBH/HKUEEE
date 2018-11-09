@@ -2,52 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".Addmission">
 
     <include layout="@layout/title" />
 
-
-    <Button
-        android:id="@+id/button_study"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Study" />
+        app:srcCompat="@drawable/study" />
 
     <Button
-        android:id="@+id/button_about"
+        android:id="@+id/general"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="about" />
+        android:text="general"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="156dp" />
 
     <Button
-        android:id="@+id/button_people"
+        android:id="@+id/application"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="people" />
+        android:text="application"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="264dp" />
 
     <Button
-        android:id="@+id/button_course_information"
+        android:id="@+id/compositionfee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="information" />
-
-    <Button
-        android:id="@+id/button_addmission"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="addmission" />
-
-    <Button
-        android:id="@+id/button_contact"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="contact" />
-
-
-
+        android:text="composition fee"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="371dp" />
 
 
 </LinearLayout>
