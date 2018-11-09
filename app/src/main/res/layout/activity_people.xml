@@ -58,7 +58,14 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="\nIntroduction"/>
+
+        <TextView
+            android:id="@+id/introduction_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ir Professor K.T. Chau received his B.Sc.(Eng.) degree with First Class Honours, M.Phil. degree, and Ph.D. degree all in Electrical and Electronic Engineering from The University of Hong Kong. He joined the alma mater in 1995, and has served as Director of the International Research Centre for Electric Vehicles, and Associate Dean of Engineering (Teaching and Learning – Taught Postgraduate). Currently, he serves as Professor and Head of Department in the Department of Electrical and Electronic Engineering.\n" />

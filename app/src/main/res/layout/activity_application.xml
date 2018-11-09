@@ -16,41 +16,69 @@
         <include layout="@layout/title" />
 
         <TextView
-            android:id="@+id/ApplicationProcedures"
+            android:id="@+id/ApplicationProcedures_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="1. Application Procedures\n
-Application materials are available online at http://www.aal.hku.hk/tpg/. You can submit your application and application fee, which is non-refundable and non-transferable, online at: http://www.aal.hku.hk/tpg/. Payment by cash will NOT be accepted.\n
+            android:textStyle="bold"
+            android:text="1. Application Procedures"/>
+
+        <TextView
+        android:id="@+id/ApplicationProcedures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Application materials are available online at http://www.aal.hku.hk/tpg/. You can submit your application and application fee, which is non-refundable and non-transferable, online at: http://www.aal.hku.hk/tpg/. Payment by cash will NOT be accepted.\n
 "/>
         <TextView
-            android:id="@+id/RequiredSupportingDocuments"
+            android:id="@+id/RequiredSupportingDocuments_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="2. Required Supporting Documents\n
-•	Officially certified degree certificate(s) and transcript(s) of your graduate and undergraduate studies* (Transcripts, certificates and diplomas which are not in English should be accompanied by a certified translation in English. The back side of the transcript(s) should also be provided if it provides information on the grading system.)\n
+            android:textStyle="bold"
+            android:text="2. Required Supporting Documents"/>
+
+        <TextView
+        android:id="@+id/RequiredSupportingDocuments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="•	Officially certified degree certificate(s) and transcript(s) of your graduate and undergraduate studies* (Transcripts, certificates and diplomas which are not in English should be accompanied by a certified translation in English. The back side of the transcript(s) should also be provided if it provides information on the grading system.)\n
 •	Official score report on an English Language proficiency test, such as TOEFL or IELTS (only for applicants with qualifications from institutions outside HK where the language of instruction and examination is not English)\n
 •	Completed calculation sheet (Please use this template (http://engg.hku.hk/faculty_msc/calsheet.xls) to calculate the CGPA / average grade / average mark. Help (http://engg.hku.hk/faculty_msc/help.pdf)) Averaged mark should also be provided using the calculation sheet and preferably be “certified by the attending University”. \n
 N.B. Processing time for applications with “certified averaged marks” provided can be considerably shortened;\n
 •	You do NOT need to attach or send in academic / professional referees’ reports unless requested.\n
 "/>
         <TextView
+        android:id="@+id/ApplicationProcessing_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text=" 3. Application Processing"/>
+
+        <TextView
         android:id="@+id/ApplicationProcessing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text=" 3. Application Processing
-Once an application has been received, it will be reviewed by the programme directors. The application status and pending documents required will be highlighted in the online application status system (see below). Normally, applications in the main round will be processed in batches of every three weeks until the available quotas are filled to reduce processing delay. Therefore, applicants are urged to submit their applications together with the relevant documents at their earliest convenience. Normally, we shall only consider local applicants in the clearing round.\n
+        android:text="Once an application has been received, it will be reviewed by the programme directors. The application status and pending documents required will be highlighted in the online application status system (see below). Normally, applications in the main round will be processed in batches of every three weeks until the available quotas are filled to reduce processing delay. Therefore, applicants are urged to submit their applications together with the relevant documents at their earliest convenience. Normally, we shall only consider local applicants in the clearing round.\n
 "/>
 
         <TextView
-            android:id="@+id/ApplicationStatusAndPendingDocuments"
+            android:id="@+id/ApplicationStatusAndPendingDocuments_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="4. Application Status and Pending documents\n
-        •	The completed application form;\n
+            android:textStyle="bold"
+            android:text="4. Application Status and Pending documents "/>
+
+        <TextView
+        android:id="@+id/ApplicationStatusAndPendingDocuments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="•	The completed application form;\n
         •	The application fee of HK$300 (non-refundable);\n
         •	Officially certified degree certificate(s) and transcript(s) of your graduate and undergraduate studies Transcripts, certificates and diplomas not in English should be accompanied by a certified translation in English.\n
         •	Official score report on an English Language proficiency test, such as TOEFL or IELTS, if required;\n
@@ -58,21 +86,36 @@ Once an application has been received, it will be reviewed by the programme dire
         •	You do NOT need to attach or send in academic / professional referees’ reports unless requested.\n
 "/>
         <TextView
-            android:id="@+id/SelectionOfPrograms"
+            android:id="@+id/SelectionOfPrograms_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="5. Selection of Programs\n
-Due to limited quotas available, only one offer will be given to a qualified applicant even if he/she has applied for two or more programs offered by a department. Therefore, applicants are urged to consider carefully before submitting multiple applications to the department.\n
+            android:textStyle="bold"
+            android:text="5. Selection of Programs"/>
+
+        <TextView
+        android:id="@+id/SelectionOfPrograms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Due to limited quotas available, only one offer will be given to a qualified applicant even if he/she has applied for two or more programs offered by a department. Therefore, applicants are urged to consider carefully before submitting multiple applications to the department.\n
 "/>
 
         <TextView
-            android:id="@+id/ApplicationTimetable"
+            android:id="@+id/ApplicationTimetable_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text=" 6. Application Timetable\n
-        Admission to the MSc (Eng) programs will start in October, 2018. Applications will be processed in batches until the quota is filled. As places are limited, applicants are advised to apply online and provide the supporting documents as soon as possible.\n
+            android:textStyle="bold"
+            android:text=" 6. Application Timetable"/>
+
+
+        <TextView
+        android:id="@+id/ApplicationTimetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Admission to the MSc (Eng) programs will start in October, 2018. Applications will be processed in batches until the quota is filled. As places are limited, applicants are advised to apply online and provide the supporting documents as soon as possible.\n
         The admission deadlines are:\n
         Main round: December 31, 2018\n
         Clearing round: 12:00nn, April 15, 2019\n

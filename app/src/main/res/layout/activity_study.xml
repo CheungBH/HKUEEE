@@ -25,6 +25,7 @@
         android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="                 Taught Postgraduate" />
 
     <TextView
@@ -33,12 +34,17 @@
         android:layout_height="wrap_content"
         android:text="The missions of the Department are to produce the highest quality of graduates to satisfy the society needs, to advance the bounds of scholarship and to conduct leading edge research. The goals of the Department are to strive for excellence in teaching, research and in professional service. The philosophy of education in the Department is to provide you with a life-long learning capability. The curricular for different programmes, although emphasis has been placed on different aspects of electrical and electronic engineering, do have a common thread in providing you with a fundamental understanding as well as an up-to-date grasp of cutting edge advanced technologies of this important field." />
 
-    <TextView
+
+
+        <include layout="@layout/lines" />
+
+        <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="------------------------------------------------------------------Master of Science in Electrical and Electronic Engineering (EEE)" />
+        android:textStyle="bold"
+        android:text="Master of Science in Electrical and Electronic Engineering (EEE)" />
 
     <TextView
         android:id="@+id/textView7"
@@ -50,6 +56,8 @@
             android:id="@+id/more_information"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:background="@null"
             android:text="More" />
 
 

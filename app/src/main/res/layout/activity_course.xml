@@ -4,15 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Course">
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+
         android:gravity="center"
-        android:text="MSc Course Outlines 2018-2019"
+        android:text="MSc Course Outlines"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/generalcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="general" />
+
+    <Button
+        android:id="@+id/communicationcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="communication" />
+
+    <Button
+        android:id="@+id/powercourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="power" />
 
 </LinearLayout>

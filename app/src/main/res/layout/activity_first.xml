@@ -9,42 +9,107 @@
 
     <include layout="@layout/title" />
 
-
-    <Button
-        android:id="@+id/button_study"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Study" />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button_about"
+        <Button
+            android:id="@+id/button_study"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="Study" />
+
+        <TextView
+            android:id="@+id/margin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     " />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="about" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/margin2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="about" />
+        android:text=" " />
 
-    <Button
-        android:id="@+id/button_people"
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/button_people"
+           android:layout_width="match_parent"
+           android:layout_height="71dp"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:text="people" />
+
+        <TextView
+            android:id="@+id/margin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     " />
+
+       <Button
+           android:id="@+id/button_course_information"
+           android:layout_width="match_parent"
+           android:layout_height="71dp"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:text="course" />
+
+   </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="people" />
+        android:text=" " />
 
-    <Button
-        android:id="@+id/button_course_information"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="course" />
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button_addmission"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="addmission" />
+       <Button
+           android:id="@+id/button_addmission"
+           android:layout_width="match_parent"
+           android:layout_height="71dp"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:text="addmission" />
 
-    <Button
-        android:id="@+id/button_contact"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="contact" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     " />
+
+       <Button
+           android:id="@+id/button_contact"
+           android:layout_width="match_parent"
+           android:layout_height="71dp"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:text="contact" />
+
+   </LinearLayout>
+
+
 
 
 </LinearLayout>

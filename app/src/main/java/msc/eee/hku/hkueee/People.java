@@ -2,6 +2,7 @@ package msc.eee.hku.hkueee;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,11 @@ public class People extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_people);
+
+        ActionBar actionbar = getSupportActionBar();
+        if (actionbar != null){
+            actionbar.hide();
+        }
 
         Button button_people = (Button) findViewById(R.id.button_people);
         button_people.setOnClickListener(new View.OnClickListener() {

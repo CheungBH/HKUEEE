@@ -27,7 +27,14 @@
         <activity android:name=".People" />
         <activity android:name=".course.GeneralCourse" />
         <activity android:name=".course.CommunicationCourse" />
-        <activity android:name=".course.PowerCourse"></activity>
+        <activity android:name=".course.PowerCourse" />
+        <activity android:name=".Facilities" />
+        <activity android:name=".facilities.Biomedical" />
+        <activity android:name=".facilities.Communication" />
+        <activity android:name=".facilities.Department" />
+        <activity android:name=".facilities.Optics" />
+        <activity android:name=".facilities.Signal" />
+        <activity android:name=".facilities.Energy"></activity>
     </application>
 
 </manifest>

@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/textViewp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Courses in power stream" />
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -49,4 +56,11 @@ Useful Contact:	Useful contact (for academic questions)
 Useful websites
 Quick Staff List:	Staff Contact List
 Social Network:	Facebook Connect– HKUEEE" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/map" />
+
 </LinearLayout>

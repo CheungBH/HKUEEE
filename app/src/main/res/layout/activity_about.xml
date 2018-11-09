@@ -21,6 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
+        android:textStyle="bold"
         android:text="Message from Head"/>
 
     <TextView
@@ -36,8 +37,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="Our mission\n
-The mission of the Department of Electrical and Electronic Engineering is to achieve excellence in teaching, research and professional services in electrical, electronic and computer technologies and allied sciences." />
+        android:textStyle="bold"
+        android:text="Our mission"/>
+
+        <TextView
+        android:id="@+id/our_mission_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="
+    The mission of the Department of Electrical and Electronic Engineering is to achieve excellence in teaching, research and professional services in electrical, electronic and computer technologies and allied sciences." />
 
 
 
