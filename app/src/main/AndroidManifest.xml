@@ -34,7 +34,10 @@
         <activity android:name=".facilities.Department" />
         <activity android:name=".facilities.Optics" />
         <activity android:name=".facilities.Signal" />
-        <activity android:name=".facilities.Energy"></activity>
+        <activity android:name=".facilities.Energy" />
+        <activity android:name=".addmisssion.Fee" />
+        <activity android:name=".StreamInformation.StreamInformation" />
+        <activity android:name=".CourseProspect"></activity>
     </application>
 
 </manifest>

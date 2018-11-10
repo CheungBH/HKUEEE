@@ -20,7 +20,7 @@
             android:layout_height="71dp"
             android:layout_weight="1"
             android:textStyle="bold"
-            android:text="Study" />
+            android:text="Introduction" />
 
         <TextView
             android:id="@+id/margin1"
@@ -100,12 +100,12 @@
             android:text="     " />
 
        <Button
-           android:id="@+id/button_contact"
+           android:id="@+id/button_facility"
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
            android:textStyle="bold"
-           android:text="contact" />
+           android:text="Facility" />
 
    </LinearLayout>
 

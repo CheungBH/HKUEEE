@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ededea"
     android:orientation="vertical"
     tools:context=".People">
 
@@ -57,28 +58,36 @@
 
         </LinearLayout>
 
+        <include layout="@layout/lines" />
+
         <TextView
             android:id="@+id/introduction"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="\nIntroduction"/>
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Introduction"/>
 
         <TextView
             android:id="@+id/introduction_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ir Professor K.T. Chau received his B.Sc.(Eng.) degree with First Class Honours, M.Phil. degree, and Ph.D. degree all in Electrical and Electronic Engineering from The University of Hong Kong. He joined the alma mater in 1995, and has served as Director of the International Research Centre for Electric Vehicles, and Associate Dean of Engineering (Teaching and Learning – Taught Postgraduate). Currently, he serves as Professor and Head of Department in the Department of Electrical and Electronic Engineering.\n" />
+            android:text="Ir Professor K.T. Chau received his B.Sc.(Eng.) degree with First Class Honours, M.Phil. degree, and Ph.D. degree all in Electrical and Electronic Engineering from The University of Hong Kong. He joined the alma mater in 1995, and has served as Director of the International Research Centre for Electric Vehicles, and Associate Dean of Engineering (Teaching and Learning – Taught Postgraduate). Currently, he serves as Professor and Head of Department in the Department of Electrical and Electronic Engineering." />
+
+        <include layout="@layout/lines" />
 
         <TextView
-            android:id="@+id/resi"
+            android:id="@+id/res_Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="18dp"
             android:text="Research Interests" />
 
         <TextView
-            android:id="@+id/rescontext"
+            android:id="@+id/res_Context"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Electric Vehicle Technologies, Renewable Energy Systems, Machines and Drives, Power Electronics"/>

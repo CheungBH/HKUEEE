@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addmisssion.Fee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/title" />
+
+        <TextView
+            android:id="@+id/Application_Fee_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#19ce19"
+            android:textSize="18dp"
+            android:text="Application Fee" />
+
+        <TextView
+            android:id="@+id/Application_Fee_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The application fee for the Master of Science curriculum is HK$300." />
+
+        <include layout="@layout/lines" />
+        <TextView
+            android:id="@+id/Composition_Fee_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#19ce19"
+            android:textSize="18dp"
+            android:text="Composition Fee" />
+
+        <TextView
+            android:id="@+id/Composition_Fee_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The MSc curricula are offered on a self-funded basis. Composition fees once paid are not refundable.
+Some courses are reimbursable under the Continuing Education Fund." />
+
+        <TextView
+            android:id="@+id/MSc_Eng_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="MSc(Eng) curricula:" />
+
+        <TextView
+            android:id="@+id/MSc_Eng_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HK$9,000 per module (for students admitted in 2014 and 2015)\n
+HK$10,000 per 6 credit-units (for students admitted in 2016 and 2017)\n
+HK$11,000 per 6 credit-units (for students admitted in 2018)\n
+HK$12,000^ per 6 credit-units (for students admitted in 2019)" />
+
+        <TextView
+            android:id="@+id/MSc_CompSc_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="MSc(CompSc) curriculum:" />
+
+        <TextView
+            android:id="@+id/MSc_CompSc_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HK$9,000 per module (for students admitted in 2014 and 2015)\n
+HK$10,000 per 6 credit-units (for students admitted in 2016 and 2017)\n
+HK$11,000 per 6 credit-units (for students admitted in 2018)\n
+HK$13,000^ per 6 credit-units (for students admitted in 2019)" />
+
+        <TextView
+            android:id="@+id/MSc_EComAndIComp_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="MSc(ECom and IComp) curriculum:" />
+
+        <TextView
+            android:id="@+id/MSc_EComAndIComp_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HK$12,000 per module (for students admitted in 2014 and 2015)\n
+HK$12,500 per 6 credit-units (for students admitted in 2016 and 2017)\n
+HK$13,000 per 6 credit-units (for students admitted in 2018)\n
+HK$13,000^ per 6 credit-units (for students admitted in 2019)\n
+^Subject to the University’s approval" />
+
+
+        <include layout="@layout/lines" />
+        <TextView
+            android:id="@+id/Payment_Method_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#19ce19"
+            android:textSize="18dp"
+            android:text="Payment Method" />
+
+        <TextView
+            android:id="@+id/Payment_Method_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You will receive an invoice issued by the Finance and Enterprises Office after the course add/drop period. Please refer to the payment instruction which is attached to the debit note."/>
+
+        <include layout="@layout/lines" />
+        <TextView
+            android:id="@+id/Caution_Money_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#19ce19"
+            android:textSize="18dp"
+            android:text="Caution Money" />
+
+        <TextView
+            android:id="@+id/Caution_Money_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Caution money of the curriculum is HK$350. It shall be paid by a student on first registration and shall be retained by the University as a deposit from which it may make deductions in respect of fees, fines, breakages, damage, loss and other charges incurred by the student; if at any time, as a result of deductions made, the balance of the deposit be inadequate to meet future charges outstanding, the student shall restore the balance therein to its original level. On withdrawal from the University, the balance of a student’s caution money shall be set off against the graduation fee or, if the student is not graduating, be returned to the student."/>
+
+    </LinearLayout>
+
+</ScrollView>

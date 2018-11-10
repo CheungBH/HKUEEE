@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
@@ -26,14 +26,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="                 Taught Postgraduate" />
+        android:text="Taught Postgraduate " />
+
+        <!--<include layout="@layout/lines" />-->
+
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="The missions of the Department are to produce the highest quality of graduates to satisfy the society needs, to advance the bounds of scholarship and to conduct leading edge research. The goals of the Department are to strive for excellence in teaching, research and in professional service. The philosophy of education in the Department is to provide you with a life-long learning capability. The curricular for different programmes, although emphasis has been placed on different aspects of electrical and electronic engineering, do have a common thread in providing you with a fundamental understanding as well as an up-to-date grasp of cutting edge advanced technologies of this important field." />
-
 
 
         <include layout="@layout/lines" />
@@ -55,11 +57,110 @@
         <Button
             android:id="@+id/more_information"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="22dp"
             android:textColor="#ff0000"
             android:background="@null"
             android:text="More" />
 
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/streams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Three streams"/>
+
+        <TextView
+            android:id="@+id/streamsintroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There are 3 streams in EEE(MSc), including general, communication and power."></TextView>
+
+
+        <Button
+            android:id="@+id/stream_information"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:textColor="#ff0000"
+            android:background="@null"
+            android:gravity="left"
+            android:text="click here for stream information" />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Message from Head"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="The Department of Electrical and Electronic Engineering (EEE) was established in late fifties as a major department in the Faculty of Engineering at the University of Hong Kong.\nIts graduates served the society since 1961 and have been making tremendous impact to the well being and development of Hong Kong in her infancy years.
+        \nOver the years, power systems, electronic, computers and information processing have evolved at dazzling speed, and have permeated to every aspect of life and the society at large.
+\n" />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/our_mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Our mission"/>
+
+        <TextView
+            android:id="@+id/our_mission_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="The mission of the Department of Electrical and Electronic Engineering is to achieve excellence in teaching, research and professional services in electrical, electronic and computer technologies and allied sciences." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/useful_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Useful link"/>
+
+        <Button
+            android:id="@+id/hkuwebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:background="@null"
+            android:text="hku website"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/hkulibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:background="@null"
+            android:text="hku library"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/engineer"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:background="@null"
+            android:text="faculty of engineer"
+            android:textColor="#ff0000" />
 
     </LinearLayout>
 </ScrollView>

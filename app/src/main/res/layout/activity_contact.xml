@@ -1,59 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="395dp"
-        android:layout_height="57dp"
-        app:srcCompat="@drawable/contact" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-----------------------------------------------------------------------------General Office Hours:	Monday–Friday: 9am – 1pm | 2pm – 5:30pm
-Saturday, Sunday OR Public Holiday: Closed" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="------------------------------------------------------------------------------Address:	Department of Electrical and Electronic Engineering
-The University of Hong Kong
-Room 601, Chow Yei Ching Building
-Pokfulam Road, Hong Kong" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="395dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/contact" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="------------------------------------------------------------------------------ Transportation:	HKU Campus Map
-MTR: HKU station exit A2
-Bus: 3A, 3B, 4, 4X, 7, 23, 30X, 37A, 37B, 40, 40M, 46X,71, 90B, 91, 94, 103, 970, 970X, 973
-Mini Van: 8, 10, 10A, 11, 13, 22, 28, 31, 55" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="------------------------------------------------------------------------------Email:	support@eee.hku.hk (for technical questions related to computer only)
-eee@eee.hku.hk (for all other questions)
-Telephone:	(852) 2859-7093
-Fax:	(852) 2559-8738
-Useful Contact:	Useful contact (for academic questions)
-Useful websites
-Quick Staff List:	Staff Contact List
-Social Network:	Facebook Connect– HKUEEE" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="General Office Hours:	Monday–Friday: 9am – 1pm | 2pm – 5:30pm
+    Saturday, Sunday OR Public Holiday: Closed" />
 
-    <ImageView
-        android:id="@+id/map"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/map" />
+        <include layout="@layout/lines" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:	Department of Electrical and Electronic Engineering
+    The University of Hong Kong
+    Room 601, Chow Yei Ching Building
+    Pokfulam Road, Hong Kong" />
 
-</LinearLayout>
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportation:	HKU Campus Map
+    MTR: HKU station exit A2
+    Bus: 3A, 3B, 4, 4X, 7, 23, 30X, 37A, 37B, 40, 40M, 46X,71, 90B, 91, 94, 103, 970, 970X, 973
+    Mini Van: 8, 10, 10A, 11, 13, 22, 28, 31, 55" />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:	support@eee.hku.hk (for technical questions related to computer only)
+    eee@eee.hku.hk (for all other questions)
+    Telephone:	(852) 2859-7093
+    Fax:	(852) 2559-8738
+    Useful Contact:	Useful contact (for academic questions)
+    Useful websites
+    Quick Staff List:	Staff Contact List
+    Social Network:	Facebook Connect– HKUEEE" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/map" />
+
+    </LinearLayout>
+</ScrollView>

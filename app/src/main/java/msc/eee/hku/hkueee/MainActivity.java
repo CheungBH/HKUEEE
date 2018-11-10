@@ -24,19 +24,28 @@ public class MainActivity extends AppCompatActivity {
     }
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.facilities:
-                Intent intent = new Intent(MainActivity.this,Facilities.class);
+            case R.id.contact:
+                Intent intent = new Intent(MainActivity.this,Contact.class);
                 startActivity(intent);
                 break;
-            case R.id.events:
-                Uri uri2 = Uri.parse("https://www.eee.hku.hk/events/");
-                Intent intent2 = new Intent(Intent.ACTION_VIEW, uri2);
+            case R.id.career:
+                Intent intent2 = new Intent(MainActivity.this,CourseProspect.class);
                 startActivity(intent2);
                 break;
-            case R.id.career:
-                Uri uri3 = Uri.parse("https://www.eee.hku.hk/study/career-prospects/");
-                Intent intent3 = new Intent(Intent.ACTION_VIEW, uri3);
+            case R.id.research:
+                Uri uri1 = Uri.parse("https://www.eee.hku.hk/research/");
+                Intent intent3 = new Intent(Intent.ACTION_VIEW, uri1);
                 startActivity(intent3);
+                break;
+            case R.id.news:
+                Uri uri2 = Uri.parse("https://www.eee.hku.hk/news/");
+                Intent intent4 = new Intent(Intent.ACTION_VIEW, uri2);
+                startActivity(intent4);
+                break;
+            case R.id.scholars:
+                Uri uri3 = Uri.parse("https://www.eee.hku.hk/study/scholarships/");
+                Intent intent5 = new Intent(Intent.ACTION_VIEW, uri3);
+                startActivity(intent5);
                 break;
             default:
         }
@@ -88,13 +97,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button_contact = (Button) findViewById(R.id.button_contact);
-        button_contact.setOnClickListener(new View.OnClickListener() {
+        Button button_facility = (Button) findViewById(R.id.button_facility);
+        button_facility.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Contact.class);
+                Intent intent = new Intent(MainActivity.this,Facilities.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the Contact",
+                Toast.makeText(MainActivity.this,"Welcome to the FACILITY",
                         Toast.LENGTH_SHORT).show();
             }
         });

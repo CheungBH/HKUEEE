@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import msc.eee.hku.hkueee.addmisssion.Application;
+import msc.eee.hku.hkueee.addmisssion.Fee;
 import msc.eee.hku.hkueee.addmisssion.GeneralQualifications;
 
 public class Addmission extends AppCompatActivity {
@@ -45,8 +46,7 @@ public class Addmission extends AppCompatActivity {
         button_fee.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Uri uri = Uri.parse("https://engg.hku.hk/Admissions/MSc/Fees");
-                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                        Intent intent = new Intent(Addmission.this,Fee.class);
                         startActivity(intent);
             }
         });

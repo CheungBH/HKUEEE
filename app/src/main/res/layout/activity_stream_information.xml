@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StreamInformation.StreamInformation">
+
+    <TextView
+        android:id="@+id/Generalin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="General Stream" />
+
+    <TextView
+        android:id="@+id/gblank"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text="--------------------------------------------------------------------"/>
+
+    <TextView
+    android:id="@+id/comin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:textSize="16dp"
+    android:text="Communication Stream" />
+
+    <TextView
+        android:id="@+id/cblank"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text="--------------------------------------------------------------------"/>
+
+    <TextView
+        android:id="@+id/powerin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="Power Stream" />
+
+    <TextView
+        android:id="@+id/pblank"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text="--------------------------------------------------------------------"/>
+
+    <Button
+        android:id="@+id/toschedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSc Schedule" />
+
+    <Button
+        android:id="@+id/tocourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSc Courses" />
+
+</LinearLayout>

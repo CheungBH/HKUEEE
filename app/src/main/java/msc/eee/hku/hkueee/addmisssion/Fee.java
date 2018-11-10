@@ -1,17 +1,15 @@
-package msc.eee.hku.hkueee;
+package msc.eee.hku.hkueee.addmisssion;
 
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Contact extends AppCompatActivity {
+import msc.eee.hku.hkueee.R;
+
+public class Fee extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact);
-
-
-
+        setContentView(R.layout.activity_fee);
     }
 }

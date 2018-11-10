@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/facilities"
-        android:title="Facilities"/>
-    <item
-        android:id="@+id/events"
-        android:title="Events"/>
+        android:id="@+id/contact"
+        android:title="Contact"/>
     <item
         android:id="@+id/career"
         android:title="Career Prospects"/>
+    <item
+        android:id="@+id/research"
+        android:title="Reserach"/>
+    <item
+        android:id="@+id/news"
+        android:title="News"/>
+    <item
+        android:id="@+id/scholars"
+        android:title="Scholars"/>
 
 </menu>

@@ -1,10 +1,12 @@
 package msc.eee.hku.hkueee;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import msc.eee.hku.hkueee.addmisssion.Application;
 import msc.eee.hku.hkueee.addmisssion.GeneralQualifications;
@@ -42,6 +44,16 @@ public class Course extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Course.this, PowerCourse.class);
+                startActivity(intent);
+            }
+        });
+
+        Button timetable = (Button) findViewById(R.id.timetable);
+        timetable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://elink.eee.hku.hk/msc_courseoffer_1819.html");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
         });
