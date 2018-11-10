@@ -14,6 +14,9 @@
 
         android:gravity="center"
         android:text="MSc Course Outlines"
+        android:textColor="#0000ff"
+        android:textSize="30sp"
+        android:textStyle="italic"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="27dp" />
 
