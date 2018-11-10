@@ -7,7 +7,7 @@
         android:id="@+id/ptoc"
         android:title="Communication Course"/>
     <item
-        android:id="@+id/cmoreinfo"
+        android:id="@+id/pdes"
         android:title="Description"/>
 
 </menu>

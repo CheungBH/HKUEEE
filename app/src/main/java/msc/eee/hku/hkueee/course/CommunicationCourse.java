@@ -33,6 +33,10 @@ public class CommunicationCourse extends AppCompatActivity {
                 Intent intent3 = new Intent(CommunicationCourse.this, PowerCourse.class);
                 startActivity(intent3);
                 break;
+            case R.id.cdes:
+                Intent intent = new Intent(CommunicationCourse.this, Description.class);
+                startActivity(intent);
+                break;
             default:
         }
         return true;

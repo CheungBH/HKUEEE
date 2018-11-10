@@ -35,9 +35,9 @@
     <TextView
         android:id="@+id/cblank"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:textSize="18sp"
-        android:text="--------------------------------------------------------------------"/>
+        android:layout_height="wrap_content"
+        android:text="--------------------------------------------------------------------"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/powerin"

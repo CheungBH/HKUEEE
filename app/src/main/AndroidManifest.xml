@@ -37,7 +37,9 @@
         <activity android:name=".facilities.Energy" />
         <activity android:name=".addmisssion.Fee" />
         <activity android:name=".StreamInformation.StreamInformation" />
-        <activity android:name=".CourseProspect"></activity>
+        <activity android:name=".CourseProspect" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".course.Description"></activity>
     </application>
 
 </manifest>

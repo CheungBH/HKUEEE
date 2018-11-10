@@ -63,13 +63,13 @@ You can find the most relevant survey in CEDARS* website for information such as
             android:id="@+id/job"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1. Community, Social and Personal Services
-(Analyst Programmer/Electronic Engineer/Graduate Trainee)
-2.Commerce and Industry
-(Programmer/Sales Engineer/Software Support Analyst/Engineer Trainee/Application Engineer/IT Sales Specialist)
-3.Civil Services
-(Graduate Engineer/Officer/Police Inspector)
-4.Educational Institutions
+            android:text="1. Community, Social and Personal Services\n
+(Analyst Programmer/Electronic Engineer/Graduate Trainee)\n
+2.Commerce and Industry\n
+(Programmer/Sales Engineer/Software Support Analyst/Engineer Trainee/Application Engineer/IT Sales Specialist)\n
+3.Civil Services\n
+(Graduate Engineer/Officer/Police Inspector)\n
+4.Educational Institutions\n
 (Programmer)"
             ></TextView>
 

@@ -9,6 +9,7 @@ import android.widget.Button;
 import msc.eee.hku.hkueee.Course;
 import msc.eee.hku.hkueee.Facilities;
 import msc.eee.hku.hkueee.R;
+import msc.eee.hku.hkueee.Schedule;
 import msc.eee.hku.hkueee.facilities.Optics;
 
 public class StreamInformation extends AppCompatActivity {
@@ -23,6 +24,15 @@ public class StreamInformation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(StreamInformation.this, Course.class);
+                startActivity(intent);
+            }
+        });
+
+        Button toschedule = (Button) findViewById(R.id.toschedule);
+        toschedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StreamInformation.this, Schedule.class);
                 startActivity(intent);
             }
         });

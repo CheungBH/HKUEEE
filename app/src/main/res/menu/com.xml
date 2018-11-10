@@ -7,7 +7,7 @@
         android:id="@+id/ctop"
         android:title="Power Course"/>
     <item
-        android:id="@+id/cmoreinfo"
+        android:id="@+id/cdes"
         android:title="Description"/>
 
 </menu>

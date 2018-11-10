@@ -4,10 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
     <include layout="@layout/title" />
+
+    <ImageView
+        android:id="@+id/eeepic"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        app:srcCompat="@drawable/eeepic" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,7 +40,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textStyle="bold"
-            android:text="about" />
+            android:text="schedule" />
 
     </LinearLayout>
 
@@ -91,7 +97,7 @@
            android:layout_height="71dp"
            android:layout_weight="1"
            android:textStyle="bold"
-           android:text="addmission" />
+           android:text="admission" />
 
         <TextView
             android:id="@+id/textView16"
@@ -105,7 +111,7 @@
            android:layout_height="71dp"
            android:layout_weight="1"
            android:textStyle="bold"
-           android:text="Facility" />
+           android:text="facility" />
 
    </LinearLayout>
 

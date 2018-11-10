@@ -46,6 +46,10 @@ public class GeneralCourse extends AppCompatActivity {
                 Intent intent3 = new Intent(GeneralCourse.this, PowerCourse.class);
                 startActivity(intent3);
                 break;
+            case R.id.gdes:
+                Intent intent = new Intent(GeneralCourse.this, Description.class);
+                startActivity(intent);
+                break;
             default:
         }
         return true;

@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Study.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the STUDY",
+                Toast.makeText(MainActivity.this,"Welcome to the INTRODUCTION",
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -79,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
         button_about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,About.class);
+                Intent intent = new Intent(MainActivity.this,Schedule.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the ABOUT",
+                Toast.makeText(MainActivity.this,"Welcome to the SCHEDULE",
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Addmission.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the ADDMISSION",
+                Toast.makeText(MainActivity.this,"Welcome to the ADMISSION",
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,People.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the People",
+                Toast.makeText(MainActivity.this,"Welcome to the PEOPLE",
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Course.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Welcome to the Course",
+                Toast.makeText(MainActivity.this,"Welcome to the COURSE",
                         Toast.LENGTH_SHORT).show();
             }
         });

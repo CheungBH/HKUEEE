@@ -45,6 +45,10 @@ public class PowerCourse extends AppCompatActivity {
                 Intent intent3 = new Intent(PowerCourse.this, CommunicationCourse.class);
                 startActivity(intent3);
                 break;
+            case R.id.pdes:
+                Intent intent = new Intent(PowerCourse.this, Description.class);
+                startActivity(intent);
+                break;
             default:
         }
         return true;
