@@ -10,6 +10,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <include layout="@layout/title" />
+
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="395dp"

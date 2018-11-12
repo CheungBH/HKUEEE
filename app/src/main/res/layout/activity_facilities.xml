@@ -53,7 +53,7 @@
         android:id="@+id/optics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Electronics and Optios" />
+        android:text="Electronics and Optics" />
 
     <Button
         android:id="@+id/signal"

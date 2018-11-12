@@ -26,6 +26,4 @@ public class Department extends AppCompatActivity {
         ListView listViewd = (ListView) findViewById(R.id.list_viewdep);
         listViewd.setAdapter(adapter3);
     }
-
-
 }

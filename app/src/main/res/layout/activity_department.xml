@@ -4,7 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".facilities.Communication">
+    android:orientation="vertical"
+    tools:context=".facilities.Department">
+
+    <TextView
+        android:id="@+id/textdeplab"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Department" />
 
     <ListView
         android:id="@+id/list_viewdep"

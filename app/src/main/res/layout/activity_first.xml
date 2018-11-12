@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-    <include layout="@layout/title" />
+    <!--<include layout="@layout/title" />-->
 
     <ImageView
         android:id="@+id/eeepic"

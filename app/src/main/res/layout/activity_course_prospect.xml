@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <include layout="@layout/title" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,6 +27,8 @@
             android:textStyle="bold"
             android:textColor="#0eb10e"
             android:text="CareerProspects" />
+
+        <include layout="@layout/lines" />
 
         <TextView
             android:layout_width="wrap_content"
