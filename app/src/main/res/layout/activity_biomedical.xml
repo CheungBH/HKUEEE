@@ -21,4 +21,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
 
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/biol"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Left"/>-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/bior"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Right"/>-->
+
+    <!--</LinearLayout>-->
+
 </LinearLayout>

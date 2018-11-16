@@ -23,7 +23,8 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="General Office Hours:	Monday–Friday: 9am – 1pm | 2pm – 5:30pm
+            android:text="General Office Hours:
+    Monday–Friday: 9am – 1pm | 2pm – 5:30pm
     Saturday, Sunday OR Public Holiday: Closed" />
 
         <include layout="@layout/lines" />
@@ -31,7 +32,8 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Address:	Department of Electrical and Electronic Engineering
+            android:text="Address:
+    Department of Electrical and Electronic Engineering
     The University of Hong Kong
     Room 601, Chow Yei Ching Building
     Pokfulam Road, Hong Kong" />

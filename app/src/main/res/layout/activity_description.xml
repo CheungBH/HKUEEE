@@ -1,9 +1,606 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".course.Description">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/E6006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6006) Communications policy and regulations "/>
+
+        <TextView
+            android:id="@+id/TE6006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims to provide a comprehensive understanding of Communications Policy and Regulations, and latest ICT policy and regulatory practices in the leading markets and economies. It helps students to appreciate the integration of multi-disciplinary knowledge in ICT industry.
+
+The course also covers some advanced policy and regulatory topics in the ICT industry including convergence licensing regime, co-regulation/self-regulation, and consumer protection regulation." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6008"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6008)  Pattern recognition and machine learning"/>
+
+        <TextView
+            android:id="@+id/te6008"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at providing fundamental knowledge on the principles and techniques of pattern recognition and machine learning.
+Specifically, the course covers the following topics: Bayes decision theory; parametric and non-parametric methods; linear discriminant functions; unsupervised learning and clustering; feature extraction; neural networks; context-dependent classification; case studies.
+Pre-requisite: A good background in linear algebra, programming experience.
+Mutually exclusive with: COMP7504 Pattern recognition and applications" />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6026"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6026)  Digital signal processing "/>
+
+        <TextView
+            android:id="@+id/te6026"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides an introduction to the fundamental concepts of digital signal processing (DSP) including a wide variety of topics such as discrete-time linear-time invariant systems, sampling theorem, z-transform, discrete-time/discrete Fourier transform, and digital filter design. Furthermore, the course will also discuss in detail about other advanced topics in digital signal processing such as multidimensional signals and systems, random processes and applications, and adaptive signal processing." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6036"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6036)  High-performance computer architecture"/>
+
+        <TextView
+            android:id="@+id/te6036"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at providing an in-depth understanding of the principles, architectures and implementations of modern high performance computer systems which are designed and based on the proactive use of instruction-level parallelism (ILP). Specifically, the course discusses with examples and case studies to investigate the high-performance computing models; pipelining and ILP; advanced pipelining design including the scoreboard and Tomasulo algorithm; speculative execution; advanced computing models such as the cloud computing models and their possible uses in general, scientific or financial applications; and case studies like the Amazon EC2 and Google Cloud platforms." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6055"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6055)  Power system distribution"/>
+
+        <TextView
+            android:id="@+id/te6055"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides a platform for electrical engineers to strengthen their technical expertise in power distribution from design to application at an advanced level.  State-of-the-art technologies for distributing electricity safely, reliably, cost-effectively and environmentally to customers are covered.   Major distribution network configurations together with the associated protection systems adopted by reputable power companies worldwide for ensuring supply reliability and operational flexibility are also included.  Strategies for enhancing supply reliability and power quality, as well as meter revenue loss prevention techniques are also examined.
+
+Whilst the course is most valuable to practising electrical engineers, it also furnishes engineers of other trades with background knowledge for coordinating their work with counterparts engaged in power supply industry as well as building services engineering field." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6063"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6063)Optoelectronics and lightwave technology"/>
+
+        <TextView
+            android:id="@+id/te6063"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="The aim of this course is to broaden the knowledge in the hardware of in optical communication systems from optoelectronic devices to integrated optical network.
+Optical communication system has almost become a 'must' technique in data/signal transmission (i.e.fiber to home).
+
+ Students will have the ability to address the issues:
+(i)	what optoelectronic components are required in the system and the operation principles and device physics,
+(ii)the issues that have been be considered to build an optical network by using the optoelectronic components
+(iii)to evaluate the performance of the optical network to meet the target/budget (technical) and to improve the performance (using advanced technology).
+All the issues will be discussed in this course." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6065"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6065)  Data compression "/>
+
+        <TextView
+            android:id="@+id/te6065"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides an introduction to the state-of-the-art compression techniques for typical media including files, digital images, videos and audios.  Specifically, the course will discuss in detail about the coding and quantization techniques commonly used for images, videos and audios. Finally, the course will cover basic concept and terminologies of common image, video and audio standards." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6080)Telecommunications systems and management "/>
+
+        <TextView
+            android:id="@+id/te6080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims to provide a comprehensive understanding of major telecommunications systems (i.e. fixed, mobile, wireless, etc.), and contemporary management practices (e.g. strategy planning, product development, marketing, customer service, etc.) in telecommunications systems. It helps students to appreciate the integration of multi-disciplinary knowledge in telecommunications sectors.
+
+The course also covers some more advanced topics in the ICT industry including next generation networks (e.g. NGA such as FTTx, HSPA+/4G/LTE, HetNet, etc.), convergence development (i.e. device, network, service, sector, etc.), multiple-play and OTT services." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6081)  Biomedical signals and systems"/>
+
+        <TextView
+            android:id="@+id/te6081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at introducing the origins, characteristics, analyses and clinical applications of the most common and clinically important medical signals, including electrocardiography (ECG), electromyography (EMG), electroencephalography (EEG), etc. Application-oriented biomedical signal processing and pattern recognition techniques will be introduced, ranging from the very basic methods (e.g., Fourier transform) to advanced methods (e.g.,neural network). With the aid of in-depth case studies, the course offers practical guidance on how to choose appropriate processing methods for solving specific problems of biomedical research. Recent developments and the state-of-the-art of biomedical signals and systems, such as brain-computer interface, will also be discussed." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6084"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6084)  Power delivery management for metropolitan cities"/>
+
+        <TextView
+            android:id="@+id/te6084"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides a platform for electrical engineers to strengthen their technical expertise in power delivery in metropolitan cities from design to application at an advanced level. State-of-the-art technologies tor safe, reliable, cost-effective and environmentally-friendly power delivery to customers are covered. Major power delivery network designs together with the associated protection systems adopted by reputable power companies worldwide for ensuring supply reliability and operational effectiveness are also included. Strategies for loss prevention management, enhancement of supply reliability and power quality are also examined.
+
+Whilst the course is most valuable to practising electrical engineers, it also furnishes engineers of other related disciplines with necessary engineering knowledge for coordinating their work with counterparts engaged in power supply industry as well as building services engineering field." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6085"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6085)The role of a computerized SCADA system in power system operation "/>
+
+        <TextView
+            android:id="@+id/te6085"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at introducing the methodologies for designing a Computerized Supervisory Control and Data Acquisition (SCADA) system for power system control and automation. The course will start with an introduction to basic power system operations for ensuring secure and effective power generation, transmission and distribution and how SCADA systems can help. Then the basic functions of a SCADA system will be analyzed and described. This is followed by automatic functions which can be implemented for power systems to enhance performance, reliability and economy. After that the software structure of various subsystems in a SCADA system will be explained. Finally, techniques for enhancing SCADA system performance and reliability will be introduced." />
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6095"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6095)  Smart grid"/>
+
+        <TextView
+            android:id="@+id/te6095"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at providing fundamental knowledge of various smart grid technologies. The challenges of the future electric power grid, renewable energy integration, energy utilization, energy storage system, automation and communication technologies in smart grid will be covered. Topics on the smart devices/applicances and energy saving control are included.
+
+Mutually exclusive with: ELEC6096, MEBS6018"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6097"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6097)  IP Networks"/>
+
+        <TextView
+            android:id="@+id/te6097"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at enabling detailed understanding about how the Internet works.  The course will begin by focusing on the fundamental concepts in the Internet architecture.  This is followed by detailed examinations of the key protocols at application layer, transport layer, network layer, and link layer.
+
+Mutually exclusive with: ELEC6007, ELEC7144"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6098"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6098)  Electronic and mobile commerce"/>
+
+        <TextView
+            android:id="@+id/te6098"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at introducing both technical, commercial and managerial knowledge on electronic commerce and mobile. The course will start with an introduction to the Business-to-Consumer (B2C) Model; Business-to- Business (B2B) model, followed by an overviews of different enabling technologies for electronic commerce and mobile commerce such as the location base technology, RFID, GPS, mobile network, electronic payment, server-side and channel security, Near Field Communication, QR Code, augmented reality and other latest technologies deploying in the industry. By the end of the course, the research trend and the way forward of the industry will be discussed.
+
+Mutually exclusive with: ELEC6078, ELEC6086"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6099"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6099)  Wireless communications and networking"/>
+
+        <TextView
+            android:id="@+id/te6099"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at introducing the technologies on wireless communications and issues on wireless networking. The course will start with an introduction to wireless communication theories. Afterward, short-range wireless technologies and standards (bluetooth, IEEE 802.11) are discussed. This is followed by long-range wireless technologies and standards (cellular, UMTS, LTE/SAE). Important system issues in wireless networking such as mobility management (Mobile IP, location dependent services, power management) and security issues are then covered in detail. Finally, the course will introduce various state-of-the-art wireless networking frontier problems (ad hoc routing, packet scheduling, femtocell, white-space networking) and mobile data application issues.
+
+Mutually exclusive with: ELEC6040, ELEC6071, ELEC6087"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6100)  Digital Communications"/>
+
+        <TextView
+            android:id="@+id/te6100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at enabling the fundamental understanding of the digital communication systems. After an overview on basic probability and random processes, the module will cover different modulations and their optimal decision rules, with an emphasis on signal space representation. Then, performance analyses under additive white Gaussian noise channel and fading channel are examined. This is followed by topics on spatial diversity and channel equalization.
+
+Mutually exclusive with: ELEC6014 and ELEC6045"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6103)  Satellite communications"/>
+
+        <TextView
+            android:id="@+id/te6103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course is an introduction to satellite communications taught at a level appropriate for postgraduates reading for the MSc curriculum in electrical and electronic engineering. It is aimed at providing a general understanding and an overview on satellite communications, with emphasis on the recent applications and developments
+
+The following topics will be covered: basics of satellite communications system: orbital aspects, launching, link budgets, modulation, error control coding, and multiple access, earth station, very small aperture terminals (VSATs), global positioning system (GPS) and satellites for mobile communication.
+
+At the end of the course, students should have gained a general understanding on satellite communications systems and also recent applications and developments of satellite communications."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6602"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6602)  Business venture in China"/>
+
+
+        <TextView
+            android:id="@+id/te6602"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course covers the following topics: China economic landscape briefing; foreigner’s perception on China; absolute advantages of overseas and SAR Chinese; forms of ventures; business competition; modeling negotiation; building successful ventures in China.
+
+By means of problem-based learning, case studies, team interactions, opportunity visits and lectures, a student shall improve understanding of business channels and niches in China. The student shall acquire skill and proficiency through the projects and presentations. He shall be able to apply concepts and to develop business venture models for himself or potential entrants under the present circumstances."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6603"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6603)  Success in industrial entrepreneurship"/>
+
+        <TextView
+            android:id="@+id/te6603"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course covers the following topics: Framework for entrepreneurship; identifying resources, capabilities, environments, opportunities and strategies; business plan; financing the new venture; risk balancing and staged financing; creating an organization.
+
+By means of problem-based learning, case studies, guest induction, team interaction and lectures, a student shall improve feeling of entrepreneurship and new opportunities; along with understanding of successful models and business concepts. The student shall acquire skill and proficiency through the projects and presentations. He shall be able to apply concepts and to elaborate successful opportunities and extend them to potential applications."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e6604"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC6604)  Neural networks, fuzzy systems and genetic algorithms"/>
+
+        <TextView
+            android:id="@+id/te6604"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course provides a general introduction to neural networks, fuzzy systems and genetic algorithms. The fundamental concepts and techniques of these three areas will be given. The course will also provide examples on the application of neural networks, fuzzy systems and genetic algorithms to a variety of engineering problems. This course will cover three important topics in the field of Applied Artificial Intelligence. By the end of this course, student should possess a firm grounding in the concepts and techniques of neural network, fuzzy system and genetic algorithm. The student should be able to apply the acquired knowledge to the development of intelligent systems or to the exploration of research problems."/>
+
+        <include layout="@layout/lines" />
+
+
+        <TextView
+            android:id="@+id/e7079"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7079)  Investment and trading for engineering students "/>
+
+        <TextView
+            android:id="@+id/te7079"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course is designed for engineering students who wish to start a career in the financial industry. This course helps students to develop the basic knowledge, skill sets, and vocabulary that can communicate with the practitioners in financial industry. Students are expected to learn how to develop market view by analyzing the driving factors to forecast the movement of financial assets like equities and foreign exchange.  Students will learn various financial instruments and quantitative models to support the development of investment and trading strategies. The financial instruments will be covered in this course include: options, futures and other derivatives of equities, commodities, and foreign exchanges as well as their pricing models. Investment and trading strategies that will be discussed in this course include those that commonly used in the market, for example, VWAP, TWAP, Bollinger Band, and RSI.
+
+Mutually exclusive with: COMP7802 Introduction to financial computing"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7080)  Algorithmic trading and high frequency trading "/>
+
+        <TextView
+            android:id="@+id/te7080"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Program trading, which includes high frequency trading (HFT), has become important that it generated over sixty percent of trading volume at Nasdaq and NYSE. There are wide range of issues involved in program trading process, which include opportunities identification, cost/friction estimation, market impact estimation, trading strategies selection, trade scheduling, capital and liquidity management, risk management, and exit management. In this course we will review the foundations of securities trading and discuss issues that related to the market microstructure. We will review important models in the microstructure and present mathematical tools in their structural and statistical representations. We will also discuss the costs associated with trading, how these costs are measured and strategies that minimize them, including the study of models for optimal splitting of the orders across time, to reduce transaction costs and control the temporary and permanent price adjustments that result from trades. 'Is that possible to use HFT in China or Hong Kong equities, options, or futures markets?' was a question that constantly been asked by practitioners and we will search for the answer together."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7081)  Advanced Topics in Computational Finance"/>
+
+        <TextView
+            android:id="@+id/te7081"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims to introduce finance to engineering students. Students will be introduced research that shape the frontier in finance industry.
+
+By the end of this course, students should know what computational finance is. They should be able to realize business potentials that arise from advances in computing (the business perspective). They should also understand where in finance computational methods could be applied to (the technology perspective). They should understand what computation methods are most used in finance. They should understand the synergy between computation and finance."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7402"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7402)  Advanced electric vehicle technology "/>
+
+        <TextView
+            android:id="@+id/te7402"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at providing in-depth understanding of the latest technologies of electric vehicles (EVs), with emphasis on their system configurations, propulsion systems, energy systems, and development trends.
+
+Specifically, the course covers the following topics: latest EV system concepts and designs, advanced electric machines and drives for EVs, advanced hybrid powertrains for hybrid EVs, advanced EV energy sources and energy management systems, and EV-to-grid technology."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7403"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7403)  Advanced power electronics"/>
+
+        <TextView
+            android:id="@+id/te7403"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="The aim of this course is to provide students with an understanding of advanced subject matters in power electronics, which include (i) high-frequency switching converters; (ii) dynamics and control of switching converters; (iii) modeling of switching converters; (iv) components and devices; and (v) industrial requirements. Students enrolled in the course are expected to have prior understanding of basic power electronic principles and the operations of rectifier and phase controlled circuits, and DC/DC buck, boost, buck-boost, and Cuk converters, and knowledge of basic power devices such as power transistor, power MOSFET, and IGBT."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7456"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7456)  Advanced power system operation"/>
+
+        <TextView
+            android:id="@+id/te7456"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="The course discusses advanced operation methodology and control theory for modern power systems.  A rigorous treatment will be adopted for practical power system operation issues, including supply demand balance, plant scheduling and unit commitment, automatic generation control and economic dispatch, load flow and fault level control, voltage and stability control, security assessment and operational planning, protection and communication system, process control system and real time control, switching operation and operational safety, emergency preparedness and black start strategy, and power system deregulation and open market’s impact to system operation.
+
+The course aims at providing students an in depth appreciation of the major issues in power system operation, thorough understanding of the concepts and principles to operate the system, and the ability to mastering the strategy and methodology to tackle these issues with clear objectives to ensure safety, security and efficiency of the entire power system."/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:id="@+id/e7466"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="(ELEC7466)  Advanced topics in power system engineering "/>
+
+        <TextView
+            android:id="@+id/te7466"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="This course aims at enabling detailed understanding about specific topics and issues of special current interest in power system engineering. In particular, by analysing how recent large system blackouts had occurred and the reasons leading to such incidents.  The course will begin by focusing on the fundamental concepts in power system design and planning, operation and equipment choice.  Special topics on issues and problem areas in network configuration, short circuit level coordination, generator design, power system stability, reactive power compensation and voltage control will be discussed.
+
+The course also covers some advanced topics in practical issues in power system control in a modern power system control centre as well as discusses observations and different viewpoints about open power market operation in the Electricity Supply Industry."/>
+
+        <include layout="@layout/lines" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/e"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text=""/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/te"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:text=""/>-->
+
+        <!--<include layout="@layout/lines" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/e"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text=""/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/te"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:text=""/>-->
+
+        <!--<include layout="@layout/lines" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/e"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text=""/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/te"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:text=""/>-->
+
+        <!--<include layout="@layout/lines" />-->
+
+
+    </LinearLayout>
+</ScrollView>
