@@ -39,6 +39,7 @@
             android:layout_height="71dp"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:textSize="14dp"
             android:background="#b89558"
             android:textColor="#e6e4df"
             android:text="Introduction" />
@@ -55,6 +56,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:textSize="14dp"
             android:background="#b89558"
             android:textColor="#e6e4df"
             android:text="schedule" />
@@ -78,6 +80,7 @@
            android:layout_height="71dp"
            android:layout_weight="1"
            android:background="#b89558"
+           android:textSize="14dp"
            android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="people" />
@@ -94,6 +97,7 @@
            android:layout_height="71dp"
            android:layout_weight="1"
            android:background="#b89558"
+           android:textSize="14dp"
            android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="course" />
@@ -117,6 +121,7 @@
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
+           android:textSize="14dp"
            android:background="#b89558"
            android:textColor="#e6e4df"
            android:textStyle="bold"
@@ -134,6 +139,7 @@
            android:layout_height="71dp"
            android:layout_weight="1"
            android:background="#b89558"
+           android:textSize="14dp"
            android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="facility" />
