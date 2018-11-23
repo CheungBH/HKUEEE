@@ -18,5 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:textSize="21sp"
-        android:text="Department of Electrical and Elecronic Engineering" />
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:text="Department of Electrical and Electronic Engineering" />
 </LinearLayout>

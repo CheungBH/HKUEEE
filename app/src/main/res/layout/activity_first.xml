@@ -4,16 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#dbceae"
     tools:context=".MainActivity">
 
     <!--<include layout="@layout/title" />-->
+
+    <TextView
+        android:id="@+id/textView1f5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
 
     <ImageView
         android:id="@+id/eeepic"
         android:layout_width="wrap_content"
         android:layout_height="126dp"
         app:srcCompat="@drawable/eeepic" />
+
+    <TextView
+        android:id="@+id/margin0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     " />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +39,8 @@
             android:layout_height="71dp"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:background="#b89558"
+            android:textColor="#e6e4df"
             android:text="Introduction" />
 
         <TextView
@@ -40,6 +55,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:background="#b89558"
+            android:textColor="#e6e4df"
             android:text="schedule" />
 
     </LinearLayout>
@@ -60,6 +77,8 @@
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
+           android:background="#b89558"
+           android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="people" />
 
@@ -74,6 +93,8 @@
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
+           android:background="#b89558"
+           android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="course" />
 
@@ -96,6 +117,8 @@
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
+           android:background="#b89558"
+           android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="admission" />
 
@@ -110,6 +133,8 @@
            android:layout_width="match_parent"
            android:layout_height="71dp"
            android:layout_weight="1"
+           android:background="#b89558"
+           android:textColor="#e6e4df"
            android:textStyle="bold"
            android:text="facility" />
 

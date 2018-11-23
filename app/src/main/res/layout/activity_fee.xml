@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#f1ebdf"
     tools:context=".addmisssion.Fee">
 
     <LinearLayout
@@ -19,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#19ce19"
+            android:textColor="#000000"
             android:textSize="18dp"
             android:text="Application Fee" />
 
@@ -35,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#19ce19"
+            android:textColor="#000000"
             android:textSize="18dp"
             android:text="Composition Fee" />
 
@@ -51,7 +52,7 @@ Some courses are reimbursable under the Continuing Education Fund." />
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="#394171"
             android:textSize="16dp"
             android:text="MSc(Eng) curricula:" />
 
@@ -69,7 +70,7 @@ HK$12,000^ per 6 credit-units (for students admitted in 2019)" />
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="#394171"
             android:textSize="16dp"
             android:text="MSc(CompSc) curriculum:" />
 
@@ -87,7 +88,7 @@ HK$13,000^ per 6 credit-units (for students admitted in 2019)" />
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="#394171"
             android:textSize="16dp"
             android:text="MSc(ECom and IComp) curriculum:" />
 
@@ -108,7 +109,7 @@ HK$13,000^ per 6 credit-units (for students admitted in 2019)\n
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#19ce19"
+            android:textColor="#000000"
             android:textSize="18dp"
             android:text="Payment Method" />
 
@@ -124,7 +125,7 @@ HK$13,000^ per 6 credit-units (for students admitted in 2019)\n
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textColor="#19ce19"
+            android:textColor="#000000"
             android:textSize="18dp"
             android:text="Caution Money" />
 

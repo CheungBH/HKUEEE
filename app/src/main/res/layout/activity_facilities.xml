@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#f1ebdf"
     tools:context=".Facilities">
+
+    <include layout="@layout/title" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,9 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LABORATORY"
-        android:textColor="#0000ff"
+        android:textColor="#000000"
         android:textSize="30sp"
-        android:textStyle="italic"/>
+        android:textStyle="bold"
+        android:gravity="center"
+        android:typeface="serif" />
 
     <TextView
         android:layout_width="wrap_content"

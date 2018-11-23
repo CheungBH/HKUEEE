@@ -5,18 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#f1ebdf"
     tools:context=".Course">
+
+    <include layout="@layout/title" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="67dp"
-
         android:gravity="center"
         android:text="MSc Course Outlines"
-        android:textColor="#0000ff"
+        android:textColor="#000000"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold"
+        android:typeface="serif"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="27dp" />
 
@@ -24,18 +27,23 @@
         android:id="@+id/generalcourse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="general" />
 
     <Button
         android:id="@+id/communicationcourse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="communication" />
 
     <Button
         android:id="@+id/powercourse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+
         android:text="power" />
 
     <TextView

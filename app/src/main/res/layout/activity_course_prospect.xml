@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f1ebdf"
     tools:context=".CourseProspect">
 
     <LinearLayout
@@ -21,14 +22,16 @@
 
         <TextView
             android:id="@+id/CareerProspect"
-            android:textSize="32sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:textStyle="bold"
-            android:textColor="#0eb10e"
+            android:textColor="#394171"
+            android:textSize="30sp"
+            android:layout_gravity="center"
             android:text="CareerProspects" />
 
-        <include layout="@layout/lines" />
+        <!--<include layout="@layout/lines" />-->
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:text="Employment Profile" />
 
         <TextView
@@ -49,9 +53,9 @@
             android:layout_height="wrap_content"
             android:text="Many students desire to equip themselves further after graduation. Recent year, around 16% proceeded to postgraduate studies, such as Master or Ph.D. in engineering, and MBA, either in Hong Kong or reputable universities overseas. For the rest, excellent opportunities abound in Hong Kong. Most were employed in commerce and industry, with the remaining in Community, Social and Personal Services. ASM Assembly Automation, HSBC, China Light and Power, and Hong Kong Electric are the regular employers of our graduates. Details can be found below.
 
-All of our students who hoped to join the workforce had no difficulty in doing so. In fact, about half of the graduates received multiple offers, with the average starting salary exceeding $13,000 per month.
+\nAll of our students who hoped to join the workforce had no difficulty in doing so. In fact, about half of the graduates received multiple offers, with the average starting salary exceeding $13,000 per month.
 
-You can find the most relevant survey in CEDARS* website for information such as 'Emoployment situation', 'Time taken to secure employment', 'Employment sectors', and 'Basic salary and gross income'." />
+\nYou can find the most relevant survey in CEDARS* website for information such as 'Emoployment situation', 'Time taken to secure employment', 'Employment sectors', and 'Basic salary and gross income'." />
 
         <include layout="@layout/lines" />
 
@@ -61,6 +65,7 @@ You can find the most relevant survey in CEDARS* website for information such as
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:text="Employers and Job Titles" />
 
         <TextView
@@ -85,6 +90,7 @@ You can find the most relevant survey in CEDARS* website for information such as
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:text="Current Job Listings" />
 
         <Button

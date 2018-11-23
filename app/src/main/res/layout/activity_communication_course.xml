@@ -8,14 +8,14 @@
     tools:context=".course.CommunicationCourse">
 
 
-
     <TextView
         android:id="@+id/textViewc"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
         android:text="Courses in communication stream" />
 
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#f1ebdf"
     tools:context=".Study">
 
     <LinearLayout
@@ -26,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textColor="#000000"
         android:text="Taught Postgraduate " />
 
         <!--<include layout="@layout/lines" />-->
@@ -45,7 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:textStyle="bold"
+        android:textStyle="bold" 
+            android:textColor="#000000"
         android:text="Master of Science in Electrical and Electronic Engineering (EEE)" />
 
     <TextView
@@ -70,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:textSize="18sp"
             android:text="Three streams"/>
 
@@ -97,6 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:textSize="18sp"
             android:text="Message from Head"/>
 
@@ -117,6 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:textSize="18sp"
             android:text="Our mission"/>
 
@@ -135,6 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:textSize="18sp"
             android:text="Useful link"/>
 

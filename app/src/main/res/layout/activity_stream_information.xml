@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,64 +7,88 @@
     android:orientation="vertical"
     tools:context=".StreamInformation.StreamInformation">
 
-    <TextView
-        android:id="@+id/Generalin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="16dp"
-        android:text="General Stream" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Generalin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="General Stream" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The general stream is designed to provide students with a sound fundamental education in all areas of electrical engineering. As electrical energy is the backbone of modern civilization, the programme has received overwhelming support from the government and leading industries, including the offer of many scholarships, prizes, training places and employment. The core of the programme equip students with fundamental knowledge in electrical engineering, including electromagnetic theory, energy conversion, electronics, communications, signal processing, information technology, control theory, computers and software engineering. Through the choice of electives, students may subsequently specialize in electrical energy related areas, such as electric power systems, electric railways, electric vehicles, power electronics and building services. Our aim is to educate students to become professional electrical engineers to meet the societal needs."></TextView>
+
+        <TextView
+            android:id="@+id/gblank"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="18sp"
+            android:text="--------------------------------------------------------------------"/>
+
+            <TextView
+            android:id="@+id/comin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="Communication Stream" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Electronic and Communications Engineering (EComE) programme aims at equipping students with a solid foundation in the diverse field of electronic engineering. Advancements in fiber optics technology, integrate circuit (IC) designs, audio and video signal processing, as well as wired and wireless network communication are just some of the many technologies electronic engineers have developed that are at the core of modern products such as mobile phones, digital camera, satellite TVs, robots, computers and the Internet."></TextView>
 
     <TextView
-        android:id="@+id/gblank"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:textSize="18sp"
-        android:text="--------------------------------------------------------------------"/>
+            android:id="@+id/cblank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------------------------------------"
+            android:textSize="18sp" />
 
-    <TextView
-    android:id="@+id/comin"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textStyle="bold"
-    android:textColor="#000000"
-    android:textSize="16dp"
-    android:text="Communication Stream" />
+        <TextView
+            android:id="@+id/powerin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="Power Stream" />
 
-    <TextView
-        android:id="@+id/cblank"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="--------------------------------------------------------------------"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power stream is undergoing a major revival linked to the search for new technologies to build solutions for electricity supply with low environmental impact. The whole of society depends on secure electricity at home, for industry and transport. The area includes power electronics, lighting technology, electric vehicles, smart grids, power systems, network automation and electricity markets along with the associated analysis and design. There are strong connections to other areas such as sensing devices, communications, computing, signal processing, and control."></TextView>
 
-    <TextView
-        android:id="@+id/powerin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="16dp"
-        android:text="Power Stream" />
+        <TextView
+            android:id="@+id/pblank"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="18sp"
+            android:text="--------------------------------------------------------------------"/>
 
-    <TextView
-        android:id="@+id/pblank"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:textSize="18sp"
-        android:text="--------------------------------------------------------------------"/>
+        <Button
+            android:id="@+id/toschedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MSc Schedule" />
 
-    <Button
-        android:id="@+id/toschedule"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MSc Schedule" />
+        <Button
+            android:id="@+id/tocourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MSc Courses" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/tocourse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MSc Courses" />
-
-</LinearLayout>
+</ScrollView>

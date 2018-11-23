@@ -1,11 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Schedule">
+    android:background="#f1ebdf"
+    android:orientation="vertical">
 
-    <include layout="@layout/title" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <include layout="@layout/title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Curriculum Structure"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Candidates are required to complete 72 credits of courses as set out below, normally over one academic
+year of full-time study or two academic years of part-time study:\n
+" />
+
+        <!--<include layout="@layout/lines" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#484747"
+            android:text="Course Category                 No. of Credits(Total 72)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discipline                                      Not less than 30
+\nElective                                         Not more than 18
+\nCapstone Experience                              24"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#484747"-->
+            <!--android:text="                Total                         72"/>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nCandidates shall select courses in accordance with the regulations of the degree. Candidates are required
+to follow a prescribed curriculum comprising a 24-credit dissertation and another 8 courses, including at
+least 5 discipline courses from the List of Discipline Courses (including at least 2 fundamental courses).
+They may select no more than 3 courses offered by other taught postgraduate curricula in the Faculty of
+Engineering as electives. All course selection will be subject to approval by the Course Coordinators.
+"/>
+
+        <include layout="@layout/lines" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Requirement"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Each student is required to complete\n
+i) a dissertation under the supervision of an appropriate teacher(s) in this department\n
+ii) attend and satisfactorily complete a capstone workshop in his/her respective stream/programme.\n
+The overall performance of capstone will be solely determined by the dissertation.
+Students failing in fulfilling the requirement (including attendance) of the workshop will need to be re-assessed or re-take the workshop."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n
+The details of the workshops are as follows"/>
+
+        <!--<include layout="@layout/lines" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#394171"
+            android:textSize="16dp"
+            android:text="MSc(Eng) in EEE (Power Engineering Stream) (choose one of the following)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Power Systems Simulation\n
+2. Power Electronics Simulation"/>
+
+        <!--<include layout="@layout/lines" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#394171"
+            android:textSize="16dp"
+            android:text="MSc(Eng) in EEE (Communications Engineering and General Stream) (choose one of the following)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Embedded System using Field Programming Gate Arrays (FPGA)\n
+2. Apps Programming"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#394171"
+            android:textSize="16dp"
+            android:text="MSc(Eng) in EnergyE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulation Techniques for Renewable Energy Systems\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The workshops will normally be held in Part I Lab (LG-205, Chow Yei Ching Building) in the first 6 weeks of the first and second semesters (depending on the total number of students enrolled). In general, full-time students are given preference to take the workshop in the first semester while part-time students are given preference to take the workshop in the second semester. Details of re-assessment will be announced by instructors of the workshop."/>
+
+    </LinearLayout>
+</ScrollView>
